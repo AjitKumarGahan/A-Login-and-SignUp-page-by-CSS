@@ -1,0 +1,93 @@
+body {
+  background-color: lightseagreen;
+  width: 100%;
+  display: grid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.signin {
+  width: 400px;
+  height: 500px;
+  float: left;
+  background-color: white;
+  margin: 50px 1px 10px 228px;
+  border-radius: 30px 0 0 30px;
+}
+.signup {
+  width: 400px;
+  height: 500px;
+  float: right;
+  background-color: white;
+  margin: 50px 228px 10px 1px;
+  border-radius: 0 30px 30px 0;
+}
+
+label {
+  margin: 0px 0px 0px 20px;
+}
+.headsignin {
+  text-align: center;
+  padding: 10px;
+  background-color: chartreuse;
+  color: white;
+  border-radius: 30px 0 0 0;
+}
+.headsignup {
+  text-align: center;
+  padding: 10px;
+  background-color: orangered;
+  color: white;
+  border-radius: 0 30px 0 0;
+}
+.firstinput {
+  width: 350px;
+  padding: 12px;
+  margin: 8px 8px 8px 8px;
+  border: 2px solid #ccc;
+  border-radius: 30px;
+  box-shadow: inset 9px 9px 9px #3b3b3bab, inset -8px -8px 8px white;
+}
+.secondinput {
+  width: 350px;
+  padding: 8px;
+  margin: 8px 8px 8px 8px;
+  border: 2px solid #ccc;
+  border-radius: 30px;
+  box-shadow: inset 9px 9px 9px #3b3b3bab, inset -8px -8px 8px white;
+}
+.btn2 {
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  left: 150px;
+  background-color: orangered;
+  color: white;
+  margin-top: 6px;
+  cursor: pointer;
+}
+.btn1 {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  left: 150px;
+  margin-top: 30px;
+  background-color: chartreuse;
+  color: white;
+  cursor: pointer;
+}
+.midlediv {
+  margin-top: 75px;
+  margin-bottom: 20px;
+}
+a {
+  position: relative;
+  left: 150px;
+  top: 25px;
+  font-size: large;
+}
+.midlediv2 {
+  margin-top: 10px;
+}
