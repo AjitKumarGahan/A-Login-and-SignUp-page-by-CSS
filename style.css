@@ -91,3 +91,8 @@ a {
 .midlediv2 {
   margin-top: 10px;
 }
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
